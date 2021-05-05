@@ -12,4 +12,45 @@
     box-sizing: border-box;
   }
 
-  
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--colorTextCompany);
+}
+
+.hero h2 {
+
+}
+
+.nav-bar {
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 6%;
+}
+
+.nav-bar .logo {
+
+    top: 13%;
+    left: 26%;
+}
+
+
+
+.background {
+    background-image: url("/images/background-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.background-filter {
+    background-color: rgba(53, 53, 53, 0.88);
+    height: 100%;
+    width: 100%;
+}
+
