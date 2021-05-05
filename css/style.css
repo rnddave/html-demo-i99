@@ -1,0 +1,15 @@
+:root {
+    --colorBackGhero: #fff;
+    --colorTextHero: #fff;
+    --colorBackGmain: #fff;
+    --colorTextMain: #111;
+    --colorTextCompany: #00D8B1;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
